@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Parkinsans:wght@300..800&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sprutteambassadøren</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="/">
+          <img src="logo.png" alt="Logo" />
+        </a>
+      </div>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Sprutteambassadøren</a></li>
+          <li><a href="index.html">Hjem</a></li>
+          <li><a href="index.html">Menu</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </nav>
+    </header>
+    <div class="hero">
+      <script
+        src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
+        type="module"
+      ></script>
+      <dotlottie-player
+        src="https://lottie.host/9e264259-46a9-46c5-8915-74d34923d62e/BVIGQ4L43T.lottie"
+        background="transparent"
+        speed="1"
+        loop
+        autoplay
+      ></dotlottie-player>
+    </div>
+
+    <main>
+      <div id="intro">
+        <h1>En passion for sprutter</h1>
+        <h2>Søde Pernille</h2>
+        <p>
+          Jeg og Agnete fik lov til at interviewe den søde hækle-entusiast
+          Pernille. Hun laver sprutter til kuvøsebørn og hospitaliserede børn.
+          Sprutterne kommer i alle former og farver, og bliver lagt sammen med
+          børn, der er født for tidligt. De skal efterligne navlestrengen, som
+          babyerne ligger og berører inde i maven på forældren.
+        </p>
+        <img class="image1" src="passionsbilleder/profil.webp" alt="profil" />
+      </div>
+      <h2>Galleri</h2>
+      <div id="galleri">
+        <img
+          class="image2"
+          src="passionsbilleder/sprutter_closeup.webp"
+          alt="sprutter_closeup"
+        />
+        <img class="image3" src="passionsbilleder/haender.webp" alt="haender" />
+        <img class="image4" src="passionsbilleder/rod.webp" alt="rod" />
+        <img class="image5" src="passionsbilleder/skaal.webp" alt="skaal" />
+      </div>
+      <h2>Interview</h2>
+      <div id="videoer">
+        <video
+          class="videohtml"
+          src="passion_video_faerdig.mp4"
+          controls
+        ></video>
+
+        <iframe
+          class="iframe"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/fuCvbVZdRQg?si=3C-fMGpjXiYuNdv2"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="menu.js"></script>
+  </body>
+</html>
